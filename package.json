@@ -1,6 +1,6 @@
 {
-  "name": "@1057405bcltd/compute-orders-addon",
-  "version": "0.1.43",
+  "name": "@roderickmonk/demo-co",
+  "version": "0.1.0",
   "description": "HFT Cryptocurrency ComputeOrders",
   "gypfile": true,
   "repository": "https://github.com/roderickmonk/compute-orders.git",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "homepage": "https://github.com/roderickmonk/compute-orders#readme",
   "dependencies": {
+    "@1057405bcltd/compute-orders-addon": "^0.1.43",
     "@types/node": "^8.0.8",
     "node-gyp": "^3.6.2"
   }

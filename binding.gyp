@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "HftEngine",
-      "sources": [ "./cpp/HftEngine.cpp", "./cpp/HftEngine_node.cpp" ],
+      "sources": [ "./cpp/HftEngine.cpp", "./node_modules/@1057405bcltd/compute-orders-addon/cpp/HftEngine_node.cpp" ],
       "cflags": ["-Wall", "-std=c++11"],
       'xcode_settings': {
         'OTHER_CFLAGS': [

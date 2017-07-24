@@ -1,6 +1,5 @@
 #include <vector>
-#include "HftEngine.h"
-
+#include "../node_modules/@1057405bcltd/compute-orders-addon/cpp/HftEngine.h"
 unsigned int iteration = 0;
 
 NextOrders incumbentOrderQuantities(Order &incumbentBuyOrder, Order &incumbentSellOrder)
