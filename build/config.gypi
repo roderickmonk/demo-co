@@ -58,10 +58,11 @@
     "v8_optimized_debug": 0,
     "v8_promise_internal_field_count": 1,
     "v8_random_seed": 0,
-    "v8_use_snapshot": "true",
+    "v8_trace_maps": 0,
+    "v8_use_snapshot": "false",
     "want_separate_host_toolset": 0,
     "want_separate_host_toolset_mkpeephole": 0,
-    "nodedir": "/home/roderickmonk/.node-gyp/8.1.2",
+    "nodedir": "/home/roderickmonk/.node-gyp/8.2.1",
     "standalone_static_library": 1
   }
 }

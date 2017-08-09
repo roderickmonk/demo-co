@@ -122,7 +122,7 @@ static void HftEngineAsync(uv_work_t *req)
 {
   HftEngineWork *work = static_cast<HftEngineWork *>(req->data);
 
-  //printVector<double>(work->hftEngine->tuning1_);
+  printVector<double>(work->hftEngine->tuning1_);
 
   work->nextOrders = ComputeOrders(
       work->hftEngine->feeRate_,

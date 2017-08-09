@@ -37,10 +37,10 @@ CFLAGS_CC_Debug := \
 	-std=gnu++0x
 
 INCS_Debug := \
-	-I/home/roderickmonk/.node-gyp/8.1.2/include/node \
-	-I/home/roderickmonk/.node-gyp/8.1.2/src \
-	-I/home/roderickmonk/.node-gyp/8.1.2/deps/uv/include \
-	-I/home/roderickmonk/.node-gyp/8.1.2/deps/v8/include
+	-I/home/roderickmonk/.node-gyp/8.2.1/include/node \
+	-I/home/roderickmonk/.node-gyp/8.2.1/src \
+	-I/home/roderickmonk/.node-gyp/8.2.1/deps/uv/include \
+	-I/home/roderickmonk/.node-gyp/8.2.1/deps/v8/include
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=HftEngine' \
@@ -74,10 +74,10 @@ CFLAGS_CC_Release := \
 	-std=gnu++0x
 
 INCS_Release := \
-	-I/home/roderickmonk/.node-gyp/8.1.2/include/node \
-	-I/home/roderickmonk/.node-gyp/8.1.2/src \
-	-I/home/roderickmonk/.node-gyp/8.1.2/deps/uv/include \
-	-I/home/roderickmonk/.node-gyp/8.1.2/deps/v8/include
+	-I/home/roderickmonk/.node-gyp/8.2.1/include/node \
+	-I/home/roderickmonk/.node-gyp/8.2.1/src \
+	-I/home/roderickmonk/.node-gyp/8.2.1/deps/uv/include \
+	-I/home/roderickmonk/.node-gyp/8.2.1/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/cpp/HftEngine.o \
