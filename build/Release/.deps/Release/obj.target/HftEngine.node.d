@@ -1,0 +1,1 @@
+cmd_Release/obj.target/HftEngine.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=HftEngine.node -o Release/obj.target/HftEngine.node -Wl,--start-group Release/obj.target/HftEngine/cpp/HftEngine.o Release/obj.target/HftEngine/cpp/HftEngine_node.o -Wl,--end-group 
