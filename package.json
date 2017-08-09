@@ -1,19 +1,16 @@
 {
   "name": "@roderickmonk/demo-co",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "HFT Cryptocurrency ComputeOrders Demo",
   "gypfile": true,
   "repository": "https://github.com/roderickmonk/demo-co.git",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "Rod Monk <rmonk.hft@gmail.com>",
   "license": "ISC",
   "homepage": "https://github.com/roderickmonk/demo-co#readme",
   "dependencies": {
-    "@1057405bcltd/compute-orders-addon": "^1.0.10",
-    "@types/node": "^8.0.8"
+    "@1057405bcltd/compute-orders-addon": "^1.0.14",
+    "@types/node": "^8.0.20"
   }
 }
