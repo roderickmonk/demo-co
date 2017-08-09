@@ -1,6 +1,6 @@
 {
   "name": "@roderickmonk/demo-co",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "HFT Cryptocurrency ComputeOrders Demo",
   "gypfile": true,
   "repository": "https://github.com/roderickmonk/demo-co.git",
