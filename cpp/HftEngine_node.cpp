@@ -86,6 +86,8 @@ private:
       tuning2.push_back(tuning2Array->Get(i)->NumberValue());
     }
 
+    cout << "junk 3" << endl;
+
     // Create the new HftEngine instance
     HftEngine *obj = new HftEngine(feeRate, quantityLimit, updateThreshold, placeThreshold, tuning1, tuning2);
     obj->Wrap(args.This());
@@ -125,7 +127,9 @@ static void HftEngineAsync(uv_work_t *req)
 {
   HftEngineWork *work = static_cast<HftEngineWork *>(req->data);
 
-  printVector<double>(work->hftEngine->tuning1_);
+    cout << "junk 4" << endl;
+
+  //printVector<double>(work->hftEngine->tuning1_);
 
   work->nextOrders = ComputeOrders(
       work->hftEngine->feeRate_,
