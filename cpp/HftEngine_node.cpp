@@ -61,6 +61,7 @@ private:
 
   static void New(const v8::FunctionCallbackInfo<v8::Value> &args)
   {
+    cout << "junk 1" << endl;
     // Capture the parameters
     double feeRate = args[0]->IsUndefined() ? 0 : args[0]->NumberValue();
     double quantityLimit = args[1]->IsUndefined() ? 0 : args[1]->NumberValue();
@@ -74,6 +75,8 @@ private:
     {
       tuning1.push_back(tuning1Array->Get(i)->NumberValue());
     }
+
+    cout << "junk 2" << endl;
 
     // Capture tuning2
     Local<Array> tuning2Array = Local<Array>::Cast(args[5]);
